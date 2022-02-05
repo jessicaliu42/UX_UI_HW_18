@@ -1,5 +1,5 @@
 body{
-    font-family: Arial;
+    font-family: Lato;
     margin: 0;
 }
 
@@ -14,16 +14,16 @@ body{
 }
 .header nav ul li{
     list-style-type: none;
-    display: inline;
     margin: 20px;
 }
 .header nav ul li a{
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: #43D9BD;
+    font-weight: 900;
 }
 .cover{
-    background-image: url(https://jessicaliu42.github.io/UX_UI_HW_17/asset/photo-1476357471311-43c0db9fb2b4.jpeg);
+    background-image: url(/asset/photo-1519389950473-47ba0277781c.jpg);
+    background-color: black;
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -33,13 +33,17 @@ body{
 main{
     position: absolute;
     text-align: center;
-    padding: 300px;
+    width: 100%;
+    padding-top: 300px;
 }
 .myname{
     font-size: 78px;
-    color:#6BD9F2;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: white;
+    color:#43D9BD;
+    font-family: 'Knewave', cursive;
+}
+.intropra{
+    color: white;
+    font-size: 18px;
 }
 .scroll{
     width: 50px;
@@ -47,7 +51,8 @@ main{
 }
 .scrolla{
     position: absolute;
-    margin-top: 200px;
+    margin-top: 250px;
+    /* color: white; */
 }
 .section{
     margin: 0;
@@ -55,7 +60,8 @@ main{
     height: 100vh;
 }
 section h1{
-    padding-top:50px;
+    /* padding-top:50px; */
+    font-family: 'Knewave', cursive;
     text-align: center;
     font-weight: 900;
     font-size: 40px;
