@@ -286,11 +286,12 @@ input[type=text], select {
     .header nav{
         padding-right: 80px;
         padding-top: 20px;
-        float: none;
-        text-align: center;
+        /* float: none; */
+        /* text-align: center; */
+        position: absolute;
     }
     .aboutme{
-
+        height: 100%;
     }
     .aboutmeContent{
         /* padding-left: 350px; */
@@ -307,8 +308,38 @@ input[type=text], select {
     .intropra{
         width: 100%;
     }
+    .intro{
+        width:100%;
+    }
     .meimage{
         grid-area: img;
         width: 50%;
+    }
+    .worklist{
+        display: grid;
+        margin: 0;
+    }
+    .work{
+        height: 100%;
+    }
+    .resume{
+        height: 100%;
+    }
+    .resumeContent{
+        /* padding-left: 350px; */
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+        "img2 resumeintro"
+        "resumeintro"
+        "download";
+        column-gap: 80px;
+    }
+    .resumeintro{
+        width: 100%;
+    }
+    .resumebutton{
+        width: 100%;
     }
 }
